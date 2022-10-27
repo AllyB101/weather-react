@@ -14,7 +14,7 @@ root.render(
       <a
         href="https://github.com/AllyB101/weather-react"
         target="_blank"
-        rel="noreferror"
+        rel="noreferrer"
       >
         {" "}
         Github
