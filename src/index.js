@@ -9,7 +9,16 @@ root.render(
   <StrictMode>
     <div className="App">
       <h1> Weather Search Engine</h1>
+
       <WeatherEngine />
+      <a
+        href="https://github.com/AllyB101/weather-react"
+        target="_blank"
+        rel="noreferror"
+      >
+        {" "}
+        Github
+      </a>
     </div>
   </StrictMode>
 );
