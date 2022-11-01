@@ -1,25 +1,15 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import WeatherEngine from "./WeatherEngine";
+
+import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <div className="App">
-      <h1> Weather Search Engine</h1>
-
-      <WeatherEngine />
-      <a
-        href="https://github.com/AllyB101/weather-react"
-        target="_blank"
-        rel="noreferrer"
-      >
-        {" "}
-        Github
-      </a>
-    </div>
+    <App />
   </StrictMode>
 );
