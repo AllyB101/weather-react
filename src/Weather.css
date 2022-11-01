@@ -1,0 +1,22 @@
+.Weather {
+  background-color: aquamarine;
+}
+
+.weather-list {
+  list-style: none;
+  color: blue;
+}
+
+.weather-units {
+  list-style: none;
+  margin: 0% auto;
+}
+
+.weather {
+  max-width: 600px;
+}
+
+.search-engine {
+  display: flex;
+  margin: 0 auto;
+}

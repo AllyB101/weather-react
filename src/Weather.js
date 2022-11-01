@@ -1,9 +1,10 @@
 import React from "react";
+import "./Weather.css";
 
 export default function Weather() {
   return (
     <div className="Weather">
-      <form>
+      <form className="search-engine">
         <div className="row">
           <div className="col-9">
             <input
@@ -18,7 +19,7 @@ export default function Weather() {
         </div>
       </form>
       <h1>Vancouver</h1>
-      <ul>
+      <ul className="weather-list">
         <li>Tuesday 1pm</li>
         <li>Mostly Cloudy</li>
       </ul>
@@ -31,7 +32,7 @@ export default function Weather() {
           6 degrees
         </div>
         <div className="col-6">
-          <ul>
+          <ul className="weather-units">
             <li>Precipitation</li>
             <li>Humidity</li>
             <li> Wind</li>
